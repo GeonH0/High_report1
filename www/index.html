@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="mportpolio.css" />
+    <script src="cordova.js"></script>
+    <title>HTML5 개인 포트폴리오 홈페이지</title>
+  </head>
+
+  <body>
+    <div>
+      <div data-role="page" id="mintro">
+        <div data-role="header" data-theme="b" data-position="fixed">
+          <h1>김건호 홈페이지</h1>
+        </div>
+        <nav>
+          <span><a href="#mcareer" data-rel="external"> 경력 </a></span>
+          <span><a href="#mstudy" data-rel="external"> 학술 </a></span>
+          <span><a href="#minfo" data-rel="external"> 인적 </a></span>
+          <span><a href="#mintro" data-rel="external"> 소개 </a></span>
+        </nav>
+        <div class="content" data-role="content">
+          <section class="section1">
+            <h3>자기소개</h3>
+            <img id="stu-pic" src="사람.png" />
+            <p>
+              저는 경성대학교 소프트웨어학과에 재학중이며 모바일 컴퓨팅 관련
+              분야에 관심을 갖고 있는 김건호입니다. 평소 프로그래밍을 즐겨하였고
+              특히, 웹 기술 관련하여 React, Spring,등에 관심이 많고 특히
+              백앤드에 관심이 많아 라이징캐프 백앤드 부분을 수료하였습니다.
+              최근에는 앱 개발에 관심이 생겨 swift를 공부중에 있습니다. 항상
+              어떤 환경에서도 최선을 다하고 즐기는 마음으로 열심히 일하고자
+              합니다.
+            </p>
+          </section>
+          <aside>
+            <h3>참조링크</h3>
+            <a href="https://github.com/GeonH0">
+              <img
+                class="portal"
+                src="github-mark.png"
+                alt="깃허브이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://www.acmicpc.net/user/h2jo369">
+              <img
+                class="portal"
+                src="백준.png"
+                alt="백준이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://velog.io/@h2jo369">
+              <img
+                class="portal"
+                src="벨로그.png"
+                alt="벨로그이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+          </aside>
+        </div>
+        <div data-role="footer" data-position="fixed" data-theme="b">
+          <h2>Copyright &copy; 2023 Kim, GeonHo</h2>
+        </div>
+      </div>
+
+      <div data-role="page" id="mstudy">
+        <div data-role="header" data-theme="b" data-position="fixed">
+          <h1>김건호 홈페이지</h1>
+        </div>
+        <nav>
+          <span
+            ><a href="#mcareer" data-theme="e" rel="external"> 경력 </a></span
+          >
+          <span
+            ><a href="#mstudy" data-theme="e" rel="external"> 학술 </a></span
+          >
+          <span><a href="#minfo" data-theme="e" rel="external"> 인적 </a></span>
+          <span
+            ><a href="#mintro" data-theme="e" rel="external"> 소개 </a></span
+          >
+        </nav>
+        <div class="content" data-role="content">
+          <section class="section1">
+            <h3>프로젝트</h3>
+            <ul>
+              <li>번개장터 클론 코딩 백앤드</li>
+              <li>다이어리앱 프론트앤드</li>
+            </ul>
+            <video controls width="100%" preload="metadata">
+              <source src="postman실행.mov" type="video/mp4" />
+            </video>
+          </section>
+          <aside>
+            <h3>참조링크</h3>
+            <a href="https://github.com/GeonH0">
+              <img
+                class="portal"
+                src="github-mark.png"
+                alt="깃허브이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://www.acmicpc.net/user/h2jo369">
+              <img
+                class="portal"
+                src="백준.png"
+                alt="백준이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://velog.io/@h2jo369">
+              <img
+                class="portal"
+                src="벨로그.png"
+                alt="벨로그이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+          </aside>
+        </div>
+        <div data-role="footer" data-position="fixed" data-theme="b">
+          <h2>Copyright &copy; 2023 Kim, GeonHo</h2>
+        </div>
+      </div>
+
+      <div data-role="page" id="mcareer">
+        <div data-role="header" data-theme="b" data-position="fixed">
+          <h1>김건호 홈페이지</h1>
+        </div>
+        <nav>
+          <span><a href="#mcareer" rel="external"> 경력 </a></span>
+          <span><a href="#mstudy" rel="external"> 학술 </a></span>
+          <span><a href="#minfo" rel="external"> 인적 </a></span>
+          <span><a href="#mintro" rel="external"> 소개 </a></span>
+        </nav>
+        <div class="content" data-role="content">
+          <section class="section1">
+            <h3>캠프참여</h3>
+            <ul>
+              <li>2022. 8~9 라이징캠프 백앤드 참여</li>
+            </ul>
+            <div id="pic-container">
+              <img id="pic1" class="semi-pic" src="수료증.jpg" />
+            </div>
+          </section>
+          <aside>
+            <h3>참조링크</h3>
+            <a href="https://github.com/GeonH0">
+              <img
+                class="portal"
+                src="github-mark.png"
+                alt="깃허브이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://www.acmicpc.net/user/h2jo369">
+              <img
+                class="portal"
+                src="백준.png"
+                alt="백준이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://velog.io/@h2jo369">
+              <img
+                class="portal"
+                src="벨로그.png"
+                alt="벨로그이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+          </aside>
+        </div>
+        <div data-role="footer" data-position="fixed" data-theme="b">
+          <h2>Copyright &copy; 2023 Kim, GeonHo</h2>
+        </div>
+      </div>
+
+      <div data-role="page" id="minfo">
+        <div data-role="header" data-theme="b" data-position="fixed">
+          <h1>김건호 홈페이지</h1>
+        </div>
+        <nav>
+          <span><a href="#mcareer" rel="external"> 경력 </a></span>
+          <span><a href="#mstudy" rel="external"> 학술 </a></span>
+          <span><a href="#minfo" rel="external"> 인적 </a></span>
+          <span><a href="#mintro" rel="external"> 소개 </a></span>
+        </nav>
+        <div class="content" data-role="content">
+          <section class="section1">
+            <h3>인적사항</h3>
+            <ul>
+              <li>성 명 : 김건호</li>
+              <li>생년월일 : 1998. 11. 24</li>
+              <li>주 소 : 부산시 남구 대연동</li>
+              <li>
+                학 력
+                <table id="year-table" border="1">
+                  <thead>
+                    <tr>
+                      <th>졸업년도</th>
+                      <th>출신학교</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2011. 2</td>
+                      <td>삼산초등학교 졸업</td>
+                    </tr>
+                    <tr>
+                      <td>2014. 2</td>
+                      <td>강남중학교 졸업</td>
+                    </tr>
+                    <tr>
+                      <td>2017. 2</td>
+                      <td>신정고등학교 졸업</td>
+                    </tr>
+                    <tr>
+                      <td>2024. 2</td>
+                      <td>경성대학교 소프트웨어학과 졸업예정</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
+          </section>
+          <img src="logo.jpg" id="logo" width="170px" />
+          <aside>
+            <h3>참조링크</h3>
+            <a href="https://github.com/GeonH0">
+              <img
+                class="portal"
+                src="github-mark.png"
+                alt="깃허브이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://www.acmicpc.net/user/h2jo369">
+              <img
+                class="portal"
+                src="백준.png"
+                alt="백준이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+            <a href="https://velog.io/@h2jo369">
+              <img
+                class="portal"
+                src="벨로그.png"
+                alt="벨로그이동"
+                style="width: 63px; height: 58"
+              />
+            </a>
+          </aside>
+        </div>
+        <div data-role="footer" data-position="fixed" data-theme="b">
+          <h2>Copyright &copy; 2023 Kim, GeonHo</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
